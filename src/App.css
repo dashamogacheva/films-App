@@ -1,0 +1,86 @@
+.main {
+  display: flex;
+}
+
+.filters-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 90px;
+  margin: 0 0 0 15px;
+}
+
+.filter-sort {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 65px;
+}
+
+.title-release-year {
+  height: 46px;
+  font-size: 18px;
+  margin: 15px 0 0 15px;
+}
+
+.pagination-style {
+  margin: 175px 0 0 0;
+}
+
+.film-card-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 84px;
+}
+
+.film-card-title {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.film-card {
+  margin: 10px;
+}
+
+.film-grid {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.MuiBox-root.film_details_main_block {
+  display: flex;
+  width: 1280px;
+  min-height: 600px;
+  padding: 24px;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+.MuiBox-root.details_info_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  flex: 1 0 0;
+  align-self: stretch;
+}
+
+.MuiBox-root.details_title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.MuiBox-root.details_info {
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+}
